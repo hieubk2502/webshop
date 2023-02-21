@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.3.0/css/all.min.css">
+</head>
+<body>
+    <!-- BEM-Block__Element--Modifier -->
+    <div class="app">
+        <!-- navigation bar: thanh co chuc nang dieu huong -->
+        <header class="header">
+            <!-- header is flex container -->
+            <!-- header__navbar la flex item -->
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <!-- header__navbar-item is block -->
+                    <!-- separate: gach | phan cach -->
+                    <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--sparate">
+                        Enter the store on TickID application
+                        <div class="header__qr">
+                            <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                <img src="./assets/img/app_store.png" alt="App Store" class="header__qr-download-img">
+
+                                </a>        
+                                <a href="" class="header__qr-link">
+                                <img src="./assets/img/google.png" alt="Google play" class="header__qr-download-img">
+
+                                </a>
+                                <a href="" class="header__qr-link">
+                                <img src="./assets/img/app_lagery.png" alt="App laggery" class="header__qr-download-img">
+
+                                </a>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        Connect
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--has-notification ">
+                        <a href="" class="header__navbar-item-link ">
+                            Notification
+                            <i class="header__navbar-icon fa-regular fa-bell"></i>
+                        </a>
+
+                        <div class="header__notification">
+                            <header class="header__notification-header">
+                                <h3>New notification</h3>
+                            </header>
+                            <ul class="header__notification-list">
+                                <li class="header__notification-item header__notification-item--viewed">
+                                    <a href="" class="header__notification-link">
+                                        <img src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/294210604_3828653490695330_6944445844402821300_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RbB9EZJM5NsAX-MBmK4&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAAReXJb0txXCwZk1N55op6ex0tjE29OhdBvNEt45qE8A&oe=63F85ABF"class="header__notification-img">
+                                        <div class="header__notification-info">
+                                            <span class="header__notification-name">Genuine IO cosmetics</span>
+                                            <span class="header__notification-descriotion">Describe</span>
+                                        </div>
+                                    </a>  
+                                </li>
+                            </ul>
+
+                            <ul class="header__notification-list">
+                                <li class="header__notification-item">
+                                    <a href="" class="header__notification-link">
+                                        <img src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/294210604_3828653490695330_6944445844402821300_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RbB9EZJM5NsAX-MBmK4&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAAReXJb0txXCwZk1N55op6ex0tjE29OhdBvNEt45qE8A&oe=63F85ABF"class="header__notification-img">
+                                        <div class="header__notification-info">
+                                            <span class="header__notification-name">Genuine IO cosmetics</span>
+                                            <span class="header__notification-descriotion">Describe</span>
+                                        </div>
+                                    </a>  
+                                </li>
+                            </ul>
+
+                            <ul class="header__notification-list">
+                                <li class="header__notification-item">
+                                    <a href="" class="header__notification-link">
+                                        <img src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/294210604_3828653490695330_6944445844402821300_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RbB9EZJM5NsAX-MBmK4&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAAReXJb0txXCwZk1N55op6ex0tjE29OhdBvNEt45qE8A&oe=63F85ABF"class="header__notification-img">
+                                        <div class="header__notification-info">
+                                            <span class="header__notification-name">Genuine IO cosmetics</span>
+                                            <span class="header__notification-descriotion">Describe</span>
+                                        </div>
+                                    </a>  
+                                </li>
+                            </ul>
+                            <footer class="header__notification-footer">
+                                <a href="" class="header__notification-footer-btn">All</a>
+                            </footer>
+
+                        </div>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            Help
+                            <i class="header__navbar-icon fa-solid fa-question"></i>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--strong header__navbar-item--sparate">Register</li>
+                    <li class="header__navbar-item header__navbar-item--strong ">Login</li>
+                </ul>
+            </nav>
+
+            <!-- header search -->
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <img src="https://scontent.fhan5-1.fna.fbcdn.net/v/t39.30808-6/294210604_3828653490695330_6944445844402821300_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RbB9EZJM5NsAX8N93bC&_nc_ht=scontent.fhan5-1.fna&oh=00_AfAvdzTu-O4dDBoC6p4xscko-Q0WjRPWLDdK79Xa5lR0mg&oe=63FA54FF" alt="" class="header__logo-img">
+                </div>
+
+                <div class="header__search">
+                    <input type="text" class="header__search-input" placeholder="Enter product">
+                    <div class="header__Search-selection">
+                        <span class="header__search-select-label">
+                            In Shop
+                        </span>
+                        <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="header__Search-btn">
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+
+                </div>
+
+                <div class="header__cart">
+                    <i class="header__cart-icon  fa-solid fa-cart-shopping"></i>
+                </div>
+
+            </div>
+        </header>
+        
+        <div class="container">
+
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+        <!-- Modal layout -->
+        <!-- <div class="modal">
+            <div class="modal__overlay">
+            </div>
+            
+            <div class="modal__body"> -->
+                <!-- Register -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Register</h3>
+                            <span class="auth-form__switch-btn">Login</span>
+                        </div>
+                        
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Your Email">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Your password">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Re-enter your password">
+                            </div>
+                        </div>    
+    
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Agree to terms
+                                <a href="" class="auth-form__policy-link">Rules&</a>
+                                <a href="" class="auth-form__policy-link">Privacy policy</a>
+                            </p>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back">Return</button>
+                            <button class="btn btn--primary btn--disabled">Register</button>
+                        </div>
+                    </div>   
+                </div>
+                <div class="auth-form__container">
+                    <div class="auth-form__socials">
+                        <a href="" class=" auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-facebook"></i>
+                            <span class="auth-form__socials-title">
+                                Connect to FB
+                            </span>
+                           
+                        </a>
+                        <a href="" class=" auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                            <span class="auth-form__socials-title">
+                                Connect to GG
+                            </span>
+                        </a>
+                    </div>      
+                </div>    -->
+            <!-- Login -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Login</h3>
+                        <span class="auth-form__switch-btn">Register</span>
+                    </div>
+                    
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Your Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Your password">
+                        </div>                        
+                    </div>    
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__help">
+                            <a href="" class="auth-form__help-link">Forgot password</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Help</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back">Return</button>
+                        <button class="btn btn--primary btn--disabled"> Login</button>
+                    </div>
+                </div>   
+            </div> -->
+            <!-- <div class="auth-form__container">
+                <div class="auth-form__socials">
+                    <a href="" class=" auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-facebook"></i>
+                        Login with FB
+                    </a>
+                    <a href="" class=" auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                        Login with Google
+                    </a>
+                </div>      
+            </div> 
+        </div> -->
+    </div>
+</body>
+</html>
